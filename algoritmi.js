@@ -59,7 +59,7 @@ for(var index3=0; index3<array2.length; index3++) {
         numberOfFindings++;
     }  
 }
-console.log(`The number of occurencies of ${certainElement} in the array is: ${numberOfFindings}`)
+console.log(`The element "${certainElement}" appears in the array of: ${numberOfFindings} times`)
 
 /* Challenge - using nested for generate the following pattern 
   0 1 0 1
@@ -70,6 +70,8 @@ console.log(`The number of occurencies of ${certainElement} in the array is: ${n
 
   1 0 1 0
 */
+
+console.log ("resultsForChallenge");
 
 var array3= [[0, 1, 0, 1], [1, 0, 1, 0], [0, 1, 0, 1], [1, 0, 1, 0]];
 
